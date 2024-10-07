@@ -22,6 +22,8 @@ Seq2Seq + Attention + Beam Search。结构如下：
     * [模型实现细节](./doc/How-it-work.md)
     * [解决方案](./doc/Solution.md)
 * [7. 致谢](#7-致谢)
+* [8. 相关项目](#8-相关项目)
+* [9. 引用](#9-引用)
 
 ## 1. 搭建环境
 
@@ -47,7 +49,8 @@ Seq2Seq + Attention + Beam Search。结构如下：
    git submodule init
    git submodule update
    ```
-   如果 git 速度太慢，您也可以手动下载数据集，放到 data 目录下。数据集仓库在 https://github.com/LinXueyuanStdio/Data-for-LaTeX_OCR 
+   > 如果 git 速度太慢，您也可以手动下载数据集，放到 data 目录下。数据集仓库在 https://github.com/LinXueyuanStdio/Data-for-LaTeX_OCR
+   > 数据仓库同时托管到 [huggingface (linxy/LaTeX_OCR)](https://huggingface.co/datasets/linxy/LaTeX_OCR)，欢迎使用！
 
 ### 如果你想自己构建数据集，然后再训练：
 
@@ -316,3 +319,17 @@ perplexity 是越接近1越好，其余3个指标是越大越好。
 ## 8. 相关项目
 
 [LaTeX_OCR 的 PyTorch 版: https://github.com/qs956/Latex_OCR_Pytorch](https://github.com/qs956/Latex_OCR_Pytorch) by [@qs956](https://github.com/qs956)
+
+## 9. 引用
+
+BibTeX
+
+```
+@misc{lin2024latex_ocr_pro,
+  title={LaTeX_OCR_PRO},
+  author={Xueyuan Lin},
+  year={2024},
+  publisher={GitHub},
+  howpublished={\url{https://github.com/LinXueyuanStdio/LaTeX_OCR_PRO}},
+}
+```
